@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .get-started-icon {
   font-size: 24px;
-  background: #FFEB3B;
+  background: #F1B24A;
   padding: 14px;
   color: #584b48;
   border-radius: 50px;
@@ -433,7 +433,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: ;
+  background: #fff ;
+    color: #000;
 }
 
 @media (min-width: 1024px) {
@@ -581,10 +582,15 @@ section {
 .why-us .icon-boxes .icon-box {
   text-align: center;
   border-radius: 10px;
-  background: #F3F3F3;
+  background:  #FFFFF3;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
   width: 100%;
+}
+.why-us .icon-boxes .icon-box:hover {
+    background: #F1B24A ;
+    color:#932432;
+    
 }
 
 .why-us .icon-boxes .icon-box i {
@@ -601,7 +607,7 @@ section {
 
 .why-us .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #716f6f;
+  color: #932432;
 }
 
 /*--------------------------------------------------------------
