@@ -892,6 +892,7 @@ section {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  background: rgba(0, 0, 0, 0.4);
   background-position: center center;
 }
 
@@ -938,7 +939,33 @@ section {
 .values .card:hover .read-more a, .values .card:hover .card-title, .values .card:hover .card-title a, .values .card:hover .card-text {
   color: #fff;
 }
-
+#clockdiv{ 
+	font-family: sans-serif; 
+	color: #fff; 
+	display: inline-block; 
+	font-weight: 100; 
+	text-align: center; 
+	font-size: 30px; 
+} 
+#clockdiv > div{ 
+	padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    background: rgba(0, 0, 0, 0.7);
+	border-radius: 3px; 
+    color: #fff;   
+	display: inline-block; 
+} 
+#clockdiv div > span{ 
+    padding-left: 5px;
+    padding-right: 5px;
+	display: inline-block; 
+} 
+.smalltext{ 
+	font-size: 14px; 
+   
+} 
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
@@ -1226,6 +1253,8 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0 0 0 0;
 }
+
+
 
 @media (max-width: 768px) {
   .portfolio-details .portfolio-description h2 {
