@@ -1276,16 +1276,7 @@ section {
   background-size: cover;
   position: relative;
 }
-.team .icon-box {
-  padding: 50px 20px;
-  margin-top: 35px;
-  margin-bottom: 25px;
-  text-align: center;
-  height: 200px;
-  position: relative;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-.team::before {
+.testimonials::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1294,112 +1285,124 @@ section {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
-.team .section-title h2{
 
+.team .section-header {
+  margin-bottom: 40px;
     color: #fff;
 }
-.team  p {
-
-  margin: 0 auto 15px auto;
-  color: #eee;
-}
-
-
-
-
-
-.team .member {
+.team .section-title h2 {
+  font-size: 32px;
+  font-weight: 500;
   margin-bottom: 20px;
-  overflow: hidden;
-  text-align: center;
-  border-radius: 5px;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-}
-.team .member .more-btn {
-  display: inline-block;
-  background: #F1B24A;  
-padding-left: 20px;
-    padding-right: 20px;
- margin-bottom: 10px;
+  padding-bottom: 0;
+  font-family: "Poppins", sans-serif;
   color: #fff;
-  border-radius: 20px;
+}
+.team .section-title p{
+    color: #fff;
+}
+.team .testimonial-item {  
+  background:  rgba(0, 0, 0, 0.8);
+  text-align: center;
+  color: #fff;
+    padding: 10px;
+    margin: 30px auto;
+  height: 100%;
+
+  justify-content: center;
+}
+
+.team .testimonial-item .testimonial-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+
+.team .testimonial-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+}
+
+.team .testimonial-item h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+}
+
+.team .testimonial-item .quote-icon-left, .team .testimonial-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 26px;
+}
+
+.team .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.team .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.team .testimonial-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #fff;
+}
+.team .testimonial-item h3 {
+ 
+  margin: 0 auto 15px auto;
+  color: #fff;
+}
+.team .owl-nav, .team .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.team .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.team .testimonial-item .more-btn {
+  display: inline-block;
+  background: #DE354C;
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
   transition: all ease-in-out 0.4s;
 }
 
-.team .member .more-btn i {
-  font-size: 12px;
+.team .testimonial-item  .more-btn i {
+  font-size: 14px;
 }
 
-.team .member .more-btn:hover {
+.team .testimonial-item  .more-btn:hover {
   color: #283747;
   background: #fff;
 }
-.team .member .member-img {
-  position: relative;
-  overflow: hidden;
+.team .owl-dot.active {
+  background-color: #ec407a !important;
 }
 
-.team .member .social {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 40px;
-  opacity: 0;
-  transition: ease-in-out 0.3s;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.85);
-}
-
-.team .member .social a {
-  transition: color 0.3s;
-  color: #473d3a;
-  margin: 0 10px;
-  padding-top: 8px;
-  display: inline-block;
-}
-
-.team .member .social a:hover {
-  color: #ec407a;
-}
-
-.team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
-.team .member .member-info {
-  padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
-  font-weight: 700;
-  margin-bottom: 5px;
-  font-size: 18px;
-  color:#fff;
-}
-
-.team .member .member-info span {
-  display: block;
-  font-size: 13px;
-  font-weight: 400;
-  color: #989595;
-}
-
-.team .member .member-info p {
-  font-style: italic;
-  font-size: 14px;
-  line-height: 26px;
-  color: #656262;
-}
-
-.team .member:hover .social {
-  opacity: 1;
-}
 @media (min-width: 1024px) {
   .team {
     background-attachment: fixed;
+  }
+}
+
+@media (min-width: 992px) {
+  .team .testimonial-item p {
+    width: 80%;
   }
 }
 
