@@ -590,10 +590,12 @@ section {
 
 
 
-.why-us .icon-boxes .icon-box i {
+.why-us .icon-boxes .icon-boximage {
   font-size: 40px;
-  color: #ec407a;
-  margin-bottom: 30px;
+    width: 50px;
+    height: 50px;
+
+  margin-bottom: 10px;
 }
 
 .why-us .icon-boxes .icon-box h4 {
