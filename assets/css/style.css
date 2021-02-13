@@ -10,15 +10,15 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #313030;
+  color: #202020;
 }
 
 a {
-  color: #ec407a;
+  color: #ffd60c;
 }
 
 a:hover {
-  color: #ef077b;
+  color: #ffd60c;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #932432;
+  background: #202020;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -51,8 +51,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  color: #fff;
-  background: #ff774a;
+  color: #202020;
+  background: #ffd60c;
   transition: background 0.2s ease-in-out;
 }
 
@@ -60,10 +60,10 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #39312f;
+  background: #202020;
   font-size: 14px;
   padding: 0;
-  color: rgba(255, 255, 255, 0.8);
+  color: #202020;
 }
 
 #topbar .contact-info ul {
@@ -91,20 +91,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info i {
-  color: #ec407a;
+  color: #202020;
   padding-right: 4px;
 }
 
 #topbar .cta a {
   color: #fff;
-  background: #ec407a;
+  background: #202020;
   padding: 8px 20px;
   display: inline-block;
   transition: 0.3s;
 }
 
 #topbar .cta a:hover {
-  background: #ff6b3b;
+  background:#202020;
 }
 
 /*--------------------------------------------------------------
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #635551;
+  color: #707070;
   text-decoration: none;
 }
 
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #635551;
+  color: #202020;
   padding: 11px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ec407a;
+  color: #707070;
   text-decoration: none;
 }
 
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #ec407a;
+  color: #707070;
 }
 
 .nav-menu .drop-down > a:after {
@@ -273,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #ec407a;
+  color: #202020;
 }
 
 .mobile-nav {
@@ -301,14 +301,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #473d3a;
+  color: #202020;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #ec407a;
+  color: #3F3F3F;
   text-decoration: none;
 }
 
@@ -426,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -10px;
   padding: 8px 26px 8px 26px;
   color: #fff;
-  background:#DE354C ;
+  background: #707070 ;
   border-radius: 0 50px 50px 0;
   position: relative;
   z-index: 4;
@@ -546,24 +546,28 @@ section {
 
 .why-us .content {
   padding: 30px;
-  background: #932432;
+  background: #FFFFFF;
   border-radius: 4px;
   color: #fff;
+    border-radius: 10px;
+box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .why-us .content h3 {
   font-weight: 700;
   font-size: 34px;
+    color:  #202020;
   margin-bottom: 30px;
 }
 
 .why-us .content p {
   margin-bottom: 30px;
+    color: #3F3F3F;
 }
 
 .why-us .content .more-btn {
   display: inline-block;
-  background: #DE354C;
+  background: #202020;
   padding: 6px 30px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -575,14 +579,14 @@ section {
 }
 
 .why-us .content .more-btn:hover {
-  color: #283747;
-  background: #fff;
+  color: #fff;
+  background: #707070;
 }
 
 .why-us .icon-boxes .icon-box {
   text-align: center;
   border-radius: 10px;
-  background:  #FFF;
+  background:  #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
   width: 100%;
@@ -590,10 +594,8 @@ section {
 
 
 
-.why-us .icon-boxes .icon-boximage {
+.why-us .icon-boxes .icon-box i {
   font-size: 40px;
-    width: 50px;
-    height: 50px;
 
   margin-bottom: 10px;
 }
@@ -601,12 +603,13 @@ section {
 .why-us .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
+    color:  #202020;
   margin: 0 0 30px 0;
 }
 
 .why-us .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #716f6f;
+  color: #3F3F3F;
 }
 
 /*--------------------------------------------------------------
@@ -614,7 +617,7 @@ section {
 --------------------------------------------------------------*/
 .about .icon-boxes h4 {
   font-size: 18px;
-  color: #7f6d68;
+  color: #202020;
   margin-bottom: 15px;
 }
 
