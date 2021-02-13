@@ -480,7 +480,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f2f2;
+  background-color:#F8F8F8;
 }
 
 .section-title {
@@ -616,15 +616,16 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 # About
 --------------------------------------------------------------*/
 .about .icon-boxes h4 {
-  font-size: 18px;
-  color: #202020;
-  margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #202020;
+    margin: 0 0 30px 0;
 }
 
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #554945;
+  color: #3F3F3F;
   margin-bottom: 15px;
 }
 
@@ -690,7 +691,7 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ec407a 50%, rgba(255, 88, 33, 0.4) 52%);
+  background: radial-gradient(	#707070 50%, rgba(255, 214, 12, 0.1) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -731,14 +732,14 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(255, 88, 33, 0.7);
+  border: 5px solid rgba(255, 214, 12, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #ec407a;
+  border-left: 15px solid #fff;
   transform: scale(20);
 }
 
@@ -753,7 +754,7 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   border: none;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
+  border-left: 15px solid #202020;
   z-index: 200;
   -webkit-animation: none;
   animation: none;
