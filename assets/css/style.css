@@ -565,6 +565,7 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     color: #3F3F3F;
 }
 
+
 .why-us .content .more-btn {
   display: inline-block;
   background: #202020;
@@ -826,6 +827,9 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+    background: #fff;
+}
 .services .icon-box {
   padding: 50px 20px;
   margin-top: 35px;
@@ -851,7 +855,7 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #ec407a;
+  background:#707070;
 }
 
 .services .icon i {
@@ -872,20 +876,47 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 
 .services .icon-box:hover .icon {
   background: #fff;
-  border: 2px solid #ec407a;
+  border: 2px solid #ffd60c;
 }
 
 .services .icon-box:hover .icon i {
-  color: #ec407a;
+  color: #202020;
 }
 
 .services .icon-box:hover .title a {
-  color: #ec407a;
+  color: #202020;
 }
 
 .services .description {
   line-height: 24px;
   font-size: 14px;
+}
+
+.services .more-btn {
+  display: inline-block;
+  background: #202020;
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.services .more-btn i {
+  font-size: 14px;
+}
+
+.services  .more-btn:hover {
+  color: #fff;
+  background: #707070;
+}
+
+.services .icon-boxes .icon-box {
+  text-align: center;
+  border-radius: 10px;
+  background:  #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  width: 100%;
 }
 
 /*--------------------------------------------------------------
@@ -1598,6 +1629,21 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   display: none;
 }
 
+.faq .more-btn {
+  display: inline-block;
+  background: #202020;
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+
+
+.faq  .more-btn:hover {
+  color: #fff;
+  background: #707070;
+}
 @media (max-width: 1200px) {
   .faq .faq-list {
     padding: 0;
@@ -1738,7 +1784,148 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     transform: rotate(360deg);
   }
 }
+/*--------------------------------------------------------------
+# popup for join us
+--------------------------------------------------------------*/
+#joinus-popup {
+    display: none;
+   
+}
+.joinus-popup .info-box {
+  color: #313030;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px;
+}
 
+.joinus-popup .info-box i {
+  font-size: 32px;
+  color: #ec407a;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #ffded4;
+  float: left;
+}
+
+.joinus-popup .info-box h3 {
+  font-size: 20px;
+  color: #656262;
+  font-weight: 700;
+  margin: 10px 0 10px 68px;
+}
+
+.joinus-popup .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 0 0 0 68px;
+}
+
+.joinus-popup .php-email-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 30px;
+}
+
+.joinus-popup .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.joinus-popup .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.joinus-popup .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.joinus-popup .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.joinus-popup .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+
+.joinus-popup .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.joinus-popup .php-email-form input, .joinus-popup .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.joinus-popup .php-email-form input::focus, .joinus-popup .php-email-form textarea::focus {
+  background-color: #ec407a;
+}
+
+.joinus-popup .php-email-form input {
+  padding: 20px 15px;
+}
+
+.joinus-popup .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.joinus-popup .php-email-form button[type="submit"] {
+  background: #ec407a;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.joinus-popup .php-email-form button[type="submit"]:hover {
+  background: #ef077b;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/*--------------------------------------------------------------
+# end for popup for join us
+--------------------------------------------------------------*/
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
