@@ -503,6 +503,9 @@ section {
   background: #f4f2f2;
   margin-bottom: 40px;
 }
+.breadcrumbs a{
+    color: #202020;
+}
 
 .breadcrumbs h2 {
   font-size: 28px;
