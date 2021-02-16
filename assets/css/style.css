@@ -1124,15 +1124,15 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #313030;
+  color: #202020;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
   border-radius: 50px;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #ec407a;
-  background: #fff1ed;
+  color: #202020;
+  background: #ffd60c;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1177,7 +1177,7 @@ box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #ec407a;
+  color: #202020;
 }
 
 .portfolio .portfolio-item .portfolio-info .details-link {
