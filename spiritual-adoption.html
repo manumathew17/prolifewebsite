@@ -183,7 +183,14 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+    <script>
+        $(window).on('load',function(){
+            setTimeout(function(){
+                $('#mymodal').modal('show')
+            },5000);
+        });
 
+    </script>
 </body>
 
 </html>
